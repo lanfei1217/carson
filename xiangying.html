@@ -55,6 +55,7 @@
 	<img src="img/por.jpg ">
 	<div class="fade fade1">Hello,Welcome in!</div>
 	<div class="fade fade2">我是一名前端开发工程师</div>
+    <button id="ok" style="width:100px;height:100px">确定</button>
 </div>
 
     </div>
@@ -95,6 +96,30 @@
         <li alt="联系方式"><img src="img/icon_5.png"></li>
     </ul>
 </div>
+
+    <script type="text/javascript">
+
+    //平台、设备和操作系统
+    var system ={
+        win : false,
+        mac : false,
+        xll : false
+    };
+    //检测平台
+    var p = navigator.platform;
+    system.win = p.indexOf("Win") == 0;
+    system.mac = p.indexOf("Mac") == 0;
+    system.x11 = (p == "X11") || (p.indexOf("Linux") == 0);
+    //跳转语句，如果是手机访问就自动跳转到wap.baidu.com页面
+    debugger;
+    if(system.win||system.mac||system.xll){
+        window.location.href="http://www.hao123.com";
+    }else{
+        window.location.href="http://www.baidu.com";
+    }
+
+</script>
+
 
 </body>
 </html>
