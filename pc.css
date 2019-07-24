@@ -2,10 +2,11 @@
 	#resume .boxs{min-height: 100vh;}
 	#box1 .portrait .fade1{font-weight:700;font-size: 30px;}
 	#box1 .portrait .fade2{font-weight:700;font-size: 40px;}
-	#box2 .aboutdetails{font-size:16px;text-indent:2em;line-height:50px;}
-	#resume #box3{margin-bottom:20vh;min-height: 80vh;!import}
-	#box3 ul li{margin-top:30px;}
-	
+	#box2 .aboutdetails{font-size:16px;text-indent:2em;line-height:100px;}
+	#resume #box3{padding-bottom:20vh;min-height: 80vh;}
+	#box3 ul li{margin-top:30px;padding:10px 0;}
+	#box3 ul li .skillcolor:before{content:attr(alt);    position: relative;top: -30px;}
+
     #btmNav li:before{content:attr(alt);display: block;color:white;font-size:14px;text-align:center;}
     #btmNav li{margin:0 20px;}
     #btmNav li:hover{cursor:pointer;}
