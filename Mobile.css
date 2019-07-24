@@ -1,0 +1,12 @@
+@media screen and (max-width: 600px) {
+
+    #resume .boxs{height: auto;
+    min-height: 100vh;}
+	#box1 .portrait .fade1{font-weight:400;font-size: 16px;}
+	#box1 .portrait .fade2{font-weight:700;font-size: 16px;}
+	#box2 .aboutdetails{font-size:12px;text-indent:2em;line-height: 28px;}
+	#box3{margin-bottom:100px;}
+	#box3 .skillbody{margin-top:30px;}
+	#box3 ul li{margin-top:10px;}
+    #btmNav li img{width:40px;height:40px;}
+}
