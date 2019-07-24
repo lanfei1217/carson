@@ -16,22 +16,30 @@
         li{list-style-type:none;}
 
 
-        #resume{width:100%;margin:0 auto;width:100%;height:100%;}
+        #resume{width:100%;margin:0 auto;}
         #box1{width:100%;background:red;background:url(img/7.jpg) no-repeat center;
     background-size: cover;overflow: hidden;}
-    #box1 .portrait{width:100%;height:80%;position:relative;top:10%;text-align:center;}
+    #box1 .portrait{width:100%;height:80%;position:relative;top:10%;text-align:center;    margin-top: 100px;}
     #box1 .portrait img{display: block;margin: 0 auto;width:100px;height:100px;border:2px solid #AAAAAA;border-radius:50%;}
     #box1 .portrait .fade{margin-top:20px;}
         #box2{width:100%;overflow: hidden;background:#CCC}
-        #box2 .aboutme{text-align:center;padding:20px 0;}
+        #box2 .aboutme{text-align:center;padding:20px 0;margin-top:100px;}
         #box2 .aboutme span{border:2px solid #FFC0CB ;padding:10px;}
         #box2 .aboutdetails{padding:0 10%;}
-        #box3{width:100%;}
-        #box3 .skillhead{text-align:center;margin-top:20px;}
+        #box3{width:100%;background: linear-gradient(to bottom,darkblue,deepskyblue);color: white;}
+        #box3 .skillhead{text-align:center;padding-top:20px;}
         #box3 .skillbody{padding:0 10%;}
-        #box3 ul li{background:#CCC;opacity:0.3;}
-        #box3 ul li .skillcolor:before{content:attr(alt);    position: relative;top: -20px;}
-        #box3 ul li .skillcolor{background:cornflowerblue;width:80%;    line-height: 25px;}
+        #box3 ul li{background:#CCC;border-radius: 0 20px 20px 0;background: rgba(255,255,255,0.2);}
+
+        #box3 ul li .skillcolor{  border-radius: 0 20px 20px 0;color:white;  }
+        #box3 ul li .skillcolor1{background:blueviolet;width:80%;}
+        #box3 ul li .skillcolor2{background:yellowgreen;width:80%;}
+        #box3 ul li .skillcolor3{background:orangered;width:80%;}
+        #box3 ul li .skillcolor4{background:darkseagreen;width:70%;}
+        #box3 ul li .skillcolor5{background:lightslategray;width:70%;}
+        #box3 ul li .skillcolor6{background:mediumvioletred;width:60%;}
+        #box3 ul li .skillcolor7{background:greenyellow;width:50%;}
+        #box3 ul li .skillcolor8{background:dodgerblue;width:50%;}
         #box4{width:100%;background:green;}
         #box5{width:100%;background:black;}
         #btmNav{position:fixed;z-index:100;bottom:0;width:100%;}
@@ -60,14 +68,14 @@
 	<h2 class="skillhead">专业技能</h2>
 	<div class="skillbody">
 		<ul>
-			<li ><div alt="HTML5"  class=skillcolor>80%</div></li>
-			<li ><div alt="CSS3" class=skillcolor>80%</div></li>
-			<li ><div alt="JavaScript" class=skillcolor>80%</div></li>
-			<li ><div alt="Vue.js" class=skillcolor>70%</div></li>
-			<li ><div alt="Jquery" class=skillcolor>70%</div></li>
-			<li ><div alt="Ajax" class=skillcolor>60%</div></li>
-			<li ><div alt="Java" class=skillcolor>50%</div></li>
-			<li ><div alt="Oracle" class=skillcolor>50%</div></li>
+			<li ><div alt="HTML5"  class="skillcolor skillcolor1"></div></li>
+			<li ><div alt="CSS3" class="skillcolor skillcolor2" ></div></li>
+			<li ><div alt="JavaScript" class="skillcolor skillcolor3" ></div></li>
+			<li ><div alt="Vue.js" class="skillcolor skillcolor4"></div></li>
+			<li ><div alt="Jquery" class="skillcolor skillcolor5"></div></li>
+			<li ><div alt="Ajax" class="skillcolor skillcolor6"></div></li>
+			<li ><div alt="Java" class="skillcolor skillcolor7"></div></li>
+			<li ><div alt="Oracle" class="skillcolor skillcolor8"></div></li>
 		</ul>
 	</div>
     </div>
